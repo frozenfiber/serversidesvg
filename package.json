@@ -1,0 +1,35 @@
+{
+  "name": "serversidesvg",
+  "version": "1.0.0",
+  "description": "A simple example to generate d3 charts on the server side using PhantomJs and Express framework",
+  "author": "Frozen Fiber <frozenfiber@gmail.com>",
+  "contributors": [{
+    "name": "Frozen Fiber",
+    "email": "frozenfiber@example.com"
+  }],
+  "scripts": {
+    "start": "node app\\app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frozenfiber/serversidesvg"
+  },
+  "bugs": {
+    "url": "https://github.com/frozenfiber/serversidesvg/issues"
+  },
+  "keywords": [
+    "Phantom JS",
+    "D3 JS",
+    "SVG"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "d3": "^3.5.16",
+    "express": "^4",
+    "path": "^0.12.7",
+    "phantomjs-prebuilt": "^2.1.6",
+    "webpage": "^0.3.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
